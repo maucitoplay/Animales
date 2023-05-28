@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #9B0D2D;/*color de fondo de toda la web*/
+	color: #EFF384;/*color de fuente de lentra de la web*/
+	padding-top:180px; /*ancho necesario para que el texto no quede bajo el encabezado*/
+	/*width:100%;*/
+	
+}
+
+#contenedor{ /*la clase contenedor manitula el div padre*/
+width: 1100px;/*ancho del div padre*/
+margin:auto; /*centrado del div padre*/
+margin-top:auto;/* espacio de la parte superior del div padre*/
+height:450px;
+}
+header{
+    position: fixed; /*fija el header*/
+    height:180px;
+	border-radius: 15px; 
+	background: #6F0505;
+	overflow:hidden;
+	align-content: auto;
+	margin: auto;
+	width: 100%;
+	top:0; /*distancia entre el header y el inicio de la pagina y ayuda a fijar*/
+	
+}
+
+header table{
+
+	width: 1100px; border:medium; margin:auto;
+}
+
+
+
+#columna1{
+
+text-align: center;
+
+width: 200px;
+color: #0070FF;
+margin: auto;
+border: ; /*BORDE TABLA*/
+}
+#nombre{
+
+text-align: center;
+
+width: 700px;
+color: #EDF107;
+margin: auto;
+border: ; /*BORDE TABLA*/
+}
+#columna2{
+
+text-align: center;
+
+width: 200px;
+color: #0070FF;
+margin: auto;
+border: ; /*BORDE TABLA*/
+}
+
+
+header nav{
+
+	text-align: center;
+	
+	line-height:0px;  
+}
+
+header nav a{
+	display:inline-block;
+	color:#F1AE07;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease ;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;       
+}
+
+#logo{
+	float:center;
+	width:150px;
+	height: 120px;
+}
+
+
+
+#izquierda, #derecha { width:200px; font-family: Georgia, Tahoma; color: #fff; text-align:justify; height:auto; word-wrap:break-word;}
+#contenido { width:700px; height:auto; font-family: Georgia, Tahoma; color: #333; text-align: center;}
+#izquierda { float: left; word-wrap:break-word; } #derecha { float: right; }
+#contenido { margin-left: 160px;} 
+
+#derecha #audio {
+	width:220px;
+	position: relative; z-index:-1;
+	
+}
+	
+
+.footer{
+	text-align:center;
+	background:#3342FFf;
+}

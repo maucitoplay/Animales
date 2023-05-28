@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#relleno {
+width: 1100px;/*ancho del div padre*/
+margin:auto; /*centrado del div padre*/
+margin-top:auto;/* espacio de la parte superior del div padre*/
+height:450px;
+}
+
+#relleno1{
+	width:275px;
+	float:left;
+	text-align:right;
+	/*background-color:#CF3;*/
+	
+}
+
+#relleno2{
+	width:550px;
+	text-align:left;
+	float:left;
+	/*margin-left:230px;*/
+	/*background-color:#33C;*/
+}
+
+#relleno3 h2{
+	margin-top:40px;
+	text-align:center;
+	
+	}
+
+#relleno3{
+	margin-top:40px;
+	width:275px;
+	text-align:justify;
+	 /*float:LEFT;*/
+	 margin-left:825px;
+	 /*background-color:#FF0;*/
+}
+
+#relleno4{
+	width:275px;
+	float:right;
+	text-align:right;
+}*/
