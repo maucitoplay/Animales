@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<title>usuario2</title>
+<body>
+<link rel="stylesheet" type="text/css" href="css/Estilos.css">
+  	     
+ <header> 
+                <table> 
+                        <td id="columna1"><img id="logo" src="images2/logo.jpg" title="logo_Colegio Escarcega"><td>
+                <td id="nombre"><h1>COLEGIO DE BACHILLERES</h1>
+                <h3>-Plantel 03 Escarcega-</h3>
+                <marquee scrolldelay=350>Bienvenida Laura Hernandez</marquee></td>
+                <td id="columna2"><img id="logo" src="images2/USUARIO2.jpg"/></td> 
+  				 </table>
+   <nav>
+     <a href="index.html">Inicio</a>
+            <a href="informacion.html">Información</a>
+            <a href="institucional.html">Institucional</a>
+            <a href="alumnos.html">Alumnos</a>
+            <a href="contacto.html">Contáctanos</a>
+            <a href="Login.html">Cerrar Sesión</a>
+        </nav>
+
+  </header>
+
+
+        <div id="contenedor">
+              <div id="derecha">
+              
+              </div>
+              <div id="izquierda">
+              </div>
+              <div id="contenido">
+             
+              <!--___________________________________________________________________________-->
+             
+              <h1 align="center" style="color:#FFFFFF";>Registro de Personal</br></h1>
+               
+<form name="login"> 
+     <table width="800"   bordercolor="#A1CD3A" > 
+       <tr> 
+       <br><br>
+         <th scope="row" style="color:#FFFFFF" align="left";><br><h2>Nombre del Personal</h2><br></th> 
+         <td><span class="cnt"> 
+           <input name="usuario" type="text" class="Input" value="" style="WIDTH: 500px; HEIGHT: 30px"  size="20"/> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th height="33" scope="row" style="color:#FFFFFF" align="left";><br><h2>Dirección</h2><br></th> 
+         <td><span class="cnt"> 
+           <input name="password" type="text" class="Input" value="" style="WIDTH: 500px; HEIGHT: 30px" size="30" /> 
+         </span></td> 
+         
+       </tr> 
+       <tr> 
+         <th height="33" scope="row" style="color:#FFFFFF" align="left";><br><h2>Ciudad</h2><br></th> 
+         <td><span class="cnt"> 
+           <input name="CAMPO2" type="text" class="Input" value="" style="WIDTH: 500px; HEIGHT: 30px" size="30" /> 
+         </span></td> 
+         
+       </tr> 
+       <tr> 
+         <th height="33" scope="row" style="color:#FFFFFF" align="left";><br><h2>Entidad de Nacimiento</h2><br></th> 
+         <td><span class="cnt"> 
+           <input name="CAMPO4" type="text" class="Input" value="" style="WIDTH: 500px; HEIGHT: 30px" size="30" /> 
+         </span></td> 
+         
+       </tr> 
+
+       <tr> 
+         <th height="33" scope="row" style="color:#FFFFFF" align="left";><br><h2>Telefono</h2><br></th> 
+         <td><span class="cnt"> 
+           <input name="CAMPO7" type="text" class="Input" value="" style="WIDTH: 500px; HEIGHT: 30px" size="30" /> 
+         </span></td> 
+       </tr> 
+       
+       <tr> 
+         <th height="50" scope="row" style="color:#FFFFFF" align="left";><br><h2>Sexo</h2><br></th> 
+         <td><span class="cnt">
+           <select>
+           <option value="volvo">Seleccione</option>
+          <option value="volvo">Masculino</option>
+          <option value="saab">Femenino</option>
+        </select>
+         </span></td> 
+       </tr> 
+  
+       <tr> 
+         <th scope="row"><a href="index.html"><input type="button" name="Borrar" id="Borrar" value="Salir" class="boton"/></a></th> 
+         <td><span class="cnt"> 
+           <input value="Guardar" target="_parent" onclick="Login()" type="reset" style="width:70px height:25px" class="boton"/> 
+			 <style type="text/css">
+                    .boton{
+                    font-size:15px;
+                    font-family:Verdana,Helvetica;
+                    font-weight:bold;
+                    color:white;
+                    /*background:#638cb5;*/
+                    background:#000;
+                    border:0px;
+                    width:120px;
+                    height:28px;
+                   }
+            </style>
+         </span></td> 
+       </tr> 
+       
+     </table> 
+</form> 
+
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+
+
+if (usuario=="" && password=="") { 
+alert("se requieren informacion para Guardar..."); } <!--IMAGEN DE BURRO-->
+else{
+		if (usuario=="xxxx" && password=="xxxx") <!--IMAGEN DE USUARIO 1-->
+		{ 
+		window.location="USUARIO1.HTML"; 
+		} 
+		else
+		{
+			alert("Informacion Guardada Exitosamente"); <!--IMAGEN DE BURRO-->
+		}
+	}
+ 
+
+} 
+</script> 
+</center> 
+<script language="Javascript"> 
+<!-- Begin 
+document.oncontextmenu = function(){return false} 
+// End --> 
+</script>
+<!--</div> --><!--CIERRA EL DIV DE CONTENIDO-->
+<!--____________________________________________________-->
+              
+    	<!--</div>-->
+     <div class="footer">
+           <br>Clave 04ECB0003K</br>
+            <p>Calle 55 s/n entre 14 y 20, Col. Unidad, Esfuerzo y Trabajo 2</p>
+            <p>Escárcega, Campeche. C.P. 24350</p>
+            <p>(01982) 82 4-07-57, plantel03@cobacam.edu.mx</p>
+            <br>
+       </div>   
+
+    </body>
+</html>
